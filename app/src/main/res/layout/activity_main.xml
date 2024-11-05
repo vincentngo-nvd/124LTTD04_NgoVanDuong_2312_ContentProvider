@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Thông tin cá nhân -->
+    <TextView
+        android:id="@+id/tvStudentInfo"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:text="Ngô Văn Dương - 22115053122312"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Button Đọc Tin Nhắn -->
+    <Button
+        android:id="@+id/btnReadMessages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đọc Tin Nhắn" />
+
+    <!-- Button Lịch Sử Cuộc Gọi -->
+    <Button
+        android:id="@+id/btnCallLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lịch Sử Cuộc Gọi"
+        android:layout_marginTop="10dp" />
+
+    <!-- Button Danh Bạ -->
+    <Button
+        android:id="@+id/btnContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh Bạ"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
